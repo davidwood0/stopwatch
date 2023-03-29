@@ -1,7 +1,11 @@
-<div class="d-flex container justify-content-center">
-  <h1 class="display-1">
-    {{ hours }}<span class="text-small">h:</span>{{ mins
-    }}<span class="text-small">m:</span>{{ secs
-    }}<span class="text-small">s</span>
-  </h1>
+<div class="d-flex-inline flex-row container text-center">
+  <span class="input display-1" role="textbox" contenteditable>{{
+    hours
+  }}</span>
+  <span class="text-small">h:</span>
+
+  <span class="input display-1" role="textbox" contenteditable>{{ mins }}</span>
+  <span class="text-small">m:</span>
+  <span class="input display-1" role="textbox" contenteditable>{{ secs }}</span>
+  <span class="text-small">s</span>
 </div>

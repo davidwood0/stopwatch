@@ -1,4 +1,12 @@
-<div class="d-flex flex-column container justify-content-center">
+<div class="d-flex mt-1 flex-column container justify-content-center">
+  <app-control-button-shelf>
+    <app-add-time-button [time]="30" unit="s"></app-add-time-button>
+    <app-add-time-button [time]="1" unit="m"></app-add-time-button>
+    <app-add-time-button [time]="5" unit="m"></app-add-time-button>
+  </app-control-button-shelf>
   <app-time-display></app-time-display>
-  <app-control-button-shelf></app-control-button-shelf>
+  <app-control-button-shelf>
+    <app-start-button></app-start-button>
+    <app-reset-button></app-reset-button>
+  </app-control-button-shelf>
 </div>
